@@ -60,3 +60,35 @@ nav ul li a:hover {
   color: #fff;
   transition: all ease 0.2s;
 }
+
+.content {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.main-text {
+  width: 500px;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.profile {
+  width: 500px;
+  height: 500px;
+}
+
+.main-text h1 {
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+}
